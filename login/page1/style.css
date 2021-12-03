@@ -1,0 +1,549 @@
+body {
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    font-weight: 400;
+    font-size: .9375rem;
+    line-height: 1.25rem;
+    padding: .227px ;
+    color: black;
+    margin: 0;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://logincdn.msauth.net/shared/1.0/content/images/backgrounds/2_bc3d32a696895f78c19df6c717586a5d.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+.outer {
+    display: table;
+    position: relative;
+    width: 100%;
+}
+
+.main-section {
+    box-sizing: border-box;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+    position: relative;
+    top: 100px;
+}
+
+.full-height {
+    box-sizing: border-box;
+    display: block;
+}
+
+.flex-column {
+    box-sizing: border-box;
+}
+/* phan 1 */
+.lightbox {
+    padding: 44px;
+    margin: 0 548px;
+    margin-bottom: 20px;
+    position: relative;
+    max-width: 440px;
+    box-sizing: border-box;
+    width: calc(100% - 40px);
+    background-color: white;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    min-height: 338px;
+    overflow: hidden;
+}
+
+.lightbox-cover {
+    height: 15.63rem;
+    width: 22rem;
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    box-sizing: border-box;
+    display: block;
+}
+
+.logo img {
+    max-width: 256px;
+    height: 24px;
+}
+
+.main {
+    box-sizing: border-box;
+}
+
+.title {
+    margin: 5px 0;
+    line-height: 1.75rem;
+    color:  black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0;
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";;
+}
+
+.input {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.input input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    border-style: solid;
+    outline: none;
+    padding: 6px 10px 6px 0;
+    border-width: 0 0 1px 0;
+}
+
+.row {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.row-1 {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.row-1 p {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.row-1 a, .row-2 a {
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    color: #0067b8;
+    box-sizing: border-box;
+}
+
+.row-1 a:hover, .row-2 a:hover {
+    text-decoration: solid grey underline;
+    color: grey;
+}
+
+.row-2 {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.row-2 a {
+    position: relative;
+}
+#phan-1 .row-2 a::after {
+    content: "";
+    position: absolute;
+    right: -23px;
+    top: 2px;
+    height: 20px;
+    width: 20px;
+    background-image: url("./img/help_outline_black_24dp.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#next {
+    cursor: pointer;
+    color: white;
+    background-color: #0067b8;
+    border: 0;
+    width: 108px;
+    height: 32px;
+    margin: 0;
+    right: 0px;
+    padding: 4px 12px 4px 12px;
+    box-sizing: border-box;
+    position: absolute;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#next:hover {
+    background-color: #0060aa;
+}
+
+.cred-box {
+    margin: 0 548px 28px 548px;
+    width: 100%;
+    position: relative;
+    max-width: 440px;
+    width: calc(100% - 40px);
+    line-height: 16px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.cred-content {
+    padding: 0 44px;
+}
+
+.row-title {
+    box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    margin-bottom: 0;
+    display: block;
+    margin: 0 -44px;
+    cursor: pointer;
+}
+
+.row-title:hover {
+    background-color: #f2f2f2;
+}
+
+.table {
+    padding: 8px 44px;
+    box-sizing: border-box;
+}
+
+.key {
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 16px;
+}
+
+.key img {
+    height: 32px;
+    width: 32px;
+}
+
+.table-cell {
+    position: absolute;
+    top: 16px;
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 16px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.data-bind {
+    display: inline-block;
+    box-sizing: border-box;
+}
+/* phan 2 */
+.main .back {
+    position: relative;
+    margin-top: 10px;
+    height: 24px;
+    margin-bottom: 0px;
+}
+.button-back {
+    position: absolute;
+    top: 0px;
+    min-height: 24px;
+    width: 24px;
+    min-width: 24px;
+    float: left;
+    padding: 0;
+    background-color: white;
+    border-width: 0;
+    border-radius: 12px;
+    margin-right: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.button-back img {
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: 0;
+    cursor: pointer;
+}
+
+.button-back img:hover {
+    background-color: #d6d2d2;
+    border-radius: 50%;
+}
+
+/* ten email */
+.span_back {
+    height: 100%;
+    line-height: 24px;
+    position: absolute;
+    left: 23px;
+}
+
+#chu_email {
+    height: 24px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+/*  */
+
+.pass {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 16px;
+}
+
+.pass input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 36px;
+    border-style: solid ;
+    outline: none;
+    padding: 6px 10px 6px 0;
+    border-width: 0 0 1px 0;
+}
+
+#login {
+    cursor: pointer;
+    color: white;
+    background-color: #0067b8;
+    border: 0;
+    width: 108px;
+    height: 32px;
+    margin: 0;
+    right: 0px;
+    padding: 4px 12px 4px 12px;
+    box-sizing: border-box;
+    position: absolute;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#login:hover {
+    background-color: #0060aa;
+}
+/*  */
+
+/* phan 3 */
+.email {
+    position: relative;
+    margin-top: 10px;
+    height: 24px;
+    margin-bottom: -5px;
+}
+
+.check-box {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.check-box label {
+    padding-left: 28px;
+    margin: 0;
+}
+
+.check-box #check {
+    display: inline-block;
+    position: absolute;
+    margin-left: -28px;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.check-box span {
+    position: absolute;
+    top: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.row {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.row .col {
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    text-align: right;
+    width: 100%;
+}
+
+.col .choice {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.col .choice button {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 0;
+    padding: 4px 12px;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: solid 2px transparent;
+    min-height: 32px;
+    min-width: 108px;
+    background-color: rgba(0,0,0,.2);
+    /* display: block; */
+    margin: 0;
+}
+
+.col .choice:nth-child(2) button {
+    background-color: #0067b8;
+    border-color: #0067b8;
+    color: white;
+}
+
+.col .choice:nth-child(1):hover {
+    background-color: #d6d2d2;
+}
+/*  */
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 125%;
+    z-index: 99;
+    clear: both;
+    overflow: visible;
+    min-height: 28px;
+    box-sizing: border-box;   
+    margin-top: 200px;
+}
+
+.footer-link {
+    margin: 0;
+    float: right;
+    font-size: 13px;
+    color: rgba(0, 0, 0, .7);
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.footer-link a {
+    color: rgba(0, 0, 0, .7);
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer-link a:hover {
+    text-decoration: solid rgba(0, 0, 0, .7) underline;
+}
+
+.footer-link a:nth-child(3) {
+    font-size: 25px;
+}
+
+.footer-link a:nth-child(3):hover {
+    text-decoration: none;
+}
+
+/* an hien */
+#phan-1 {
+    display: block;
+}
+#phan-2 {
+    display: none;
+}
+
+#phan-3 {
+    display: none;
+}
+
+
+/* thông báo */
+.span {
+    font-size: 14px;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* tên */
+/* #next2 {
+    cursor: pointer;
+    color: white;
+    background-color: #0067b8;
+    border: 0;
+    width: 108px;
+    height: 32px;
+    margin: 0;
+    right: 0px;
+    padding: 4px 12px 4px 12px;
+    box-sizing: border-box;
+    position: absolute;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+} */
+
+#next2 {
+    cursor: pointer;
+    color: white;
+    background-color: #0067b8;
+    border: 0;
+    width: 108px;
+    height: 32px;
+    margin: 0;
+    right: 0px;
+    padding: 4px 12px 4px 12px;
+    box-sizing: border-box;
+    position: absolute;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#next2:hover {
+    background-color: #0060aa;
+}
+
+.button-ten {
+    position: relative;
+    right: 5px;
+    bottom: -2rem;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+#ten {
+    display: none;
+}
+
+/* sai dung */
+.invalid {
+    border-color: #f33a58;
+}
+
+.border-black {
+    border-color: rgba(0, 0, 0, .6);
+}
+
+.border-mau {
+    border-color: #0060aa;
+}
+
